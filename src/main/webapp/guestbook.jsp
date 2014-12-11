@@ -19,6 +19,8 @@
 
 <body>
 
+<h1>New guestbook version</h1>
+
 <%
     String guestbookName = request.getParameter("guestbookName");
     if (guestbookName == null) {
